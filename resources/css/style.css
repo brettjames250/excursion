@@ -5,6 +5,11 @@ html {
 
 }
 
+#all {
+    margin: 0 auto;
+    width: 800px;
+   }
+
 h1 {
     color: white;
     font-weight: normal;
@@ -20,4 +25,14 @@ h2 {
 p {
     font-size: 21px;
     color: gray;
+}
+
+#trademark {
+    text-align: right;
+}
+
+.download-link {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: underline;
 }

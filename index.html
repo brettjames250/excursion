@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Excursion</title>
         <link href=".\resources\css\style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>Discover hidden places in the world around you</h1>
-        <video src=".\resources\video\excursion.mp4" controls>Your browser does not support video playback</video>
-        <h2>Your personal travel guide</h2>
-        <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
-        <img src=".\resources\images\camp.png" />
-        <img src=".\resources\images\phone.png" />
-        <h2>Coming soon for iPhone and Android</h2>
+        <header>
+            <h1>Discover hidden places in the world around you</h1>
+            <p class="download-link">Download Excursion (Coming soon!)</p>
+        </header>
+        <main>
+            <video muted autoplay loop>
+                <source src=".\resources\video\excursion.mp4">
+                <p>Your browser does not support video playback</p>
+            </video>
+            <h2>Your personal travel guide</h2>
+            <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
+            <img src=".\resources\images\camp.png" alt="picture of campsite" />
+            <p>
+                <img src=".\resources\images\phone.png" alt="mobile phone icon" />
+            </p>
+            <h2>Coming soon for iPhone and Android</h2>
+            <p class="download-link">Download Excursion (Coming soon!)</p>
+        </main>
+        <footer>
+            <p id="trademark"> &#169 Excursion</p>
+        </footer>
     </body>
 </html>
